@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 21" width="11" height="21">
+	<title>forward</title>
+	<defs>
+		<image  width="11" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAVCAMAAACnruT/AAAAAXNSR0IB2cksfwAAAEVQTFRF////////////////////////////////////////////////////////////////////////////////////////////kBY+3AAAABd0Uk5Tf0wA1/87BcwC0TgB0zXPN805OtDGRfz79jZ4AAAAWElEQVR4nG3PSxKAIAwDUIxRq/jB7/2Pqgtbs5DVo8OENKUKflLNJtx2cUmwnoMbeeTkBmYuYRSuYSvc3Mj7k/YadvB0w3j9zOW95kj+96/0kZ7aX/eSfW/gowPTX1/XTwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="forward" href="#img1" x="0" y="0" />
+</svg>
