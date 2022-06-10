@@ -790,12 +790,11 @@ header {
 @media (min-width: 1355px) {
   .works__examples {
     grid-template-rows: 2fr;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
   }
-  .works__examples img:last-child {
-    display: none;
-  }
-  .works__examples img:nth-child(11) {
+}
+@media (max-width: 837px) {
+  .works__examples img:nth-child(2n) {
     display: none;
   }
 }
@@ -1203,7 +1202,7 @@ footer {
 }
 @media (max-width: 1030px) {
   .block3__form input {
-    width: calc(150px + 60 * ((100vw - 320px) / 710));
+    width: calc(170px + 40 * ((100vw - 320px) / 710));
   }
 }
 .block3__form button {

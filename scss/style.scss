@@ -563,11 +563,10 @@ header{
   }
   @media (min-width: 1355px) {
     grid-template-rows: 2fr;
-    grid-template-columns: repeat(5, auto);
-    & img:last-child{
-      display: none;
-    }
-    & img:nth-child(11){
+    grid-template-columns: repeat(6, auto);
+  }
+  @media (max-width: $middleWidth) {
+    & img:nth-child(2n){
       display: none;
     }
   }
@@ -808,7 +807,7 @@ footer{
   white-space: nowrap;
   input{
     @include form;
-    @include adaptive-value(width, 210, 150, 1);
+    @include adaptive-value(width, 210, 170, 1);
     background-color: transparent;
     border: 1px solid $color_main;
     margin: 0;
